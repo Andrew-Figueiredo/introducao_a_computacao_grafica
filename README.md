@@ -13,7 +13,7 @@ Este repositório tem o objetivo de apresentar todos os trabalhos da disciplina 
 4. [Trabalho 04: ](#trabalho_4) -->
 
 <br></br>
-## Trabalho 01 - Instalando, Compilando e Executando um programa OpenGL Moderno (Triangulo) <a name="trabalho_1" ></a>
+<a name="trabalho_1" ></a> ## Trabalho 01 - Instalando, Compilando e Executando um programa OpenGL Moderno (Triangulo) 
 ----------------------------
 Neste trabalho foi porposto a configuração do ambiente de desenvolvimento dos alunos para trabalhar com o OpenGL 3.3 e se familiarizar com a ferramenta.
 
