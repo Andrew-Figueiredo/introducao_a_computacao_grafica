@@ -50,7 +50,7 @@ Em seguida para confirma se o OpenGL e suas dependecias já estavam instaladas u
 Instalando então todas as ferramentas necessárias.
 
 
-Após a configuração do computador, foi feito o download do programa que está no link [](https://github.com/capagot/icg/tree/master/01_hello_world_gl/modern_opengl) complando-o e executando-o apareceu os seguintes warnings já mencionados pelo professor,
+Após a configuração do computador, foi feito o download do programa que está no link https://github.com/capagot/icg/tree/master/01_hello_world_gl/modern_opengl compilando-o e executando-o, gerou os seguintes warnings já mencionados pelo professor na cabeçalho da atividade,
 
 
 ![Figura 2 - Alguns_Warnings](https://user-images.githubusercontent.com/45156832/95157773-60ff2e80-0770-11eb-82ab-8a344848a37a.png)
