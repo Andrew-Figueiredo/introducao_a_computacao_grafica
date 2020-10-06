@@ -2,20 +2,21 @@
 
 
 **Aluno:** Andrew Galvão de Figueiredo Oliveira
-----------------------------
+------------------------------------------
 Este repositório tem o objetivo de apresentar todos os trabalhos da disciplina de Introdução à Computação Gráfica. Ele será apresentado em detalhes a baixo, dividindo em tópicos de acordo com a atividade, e será atualizando juntamente com o avançar da disciplina. Os códigos fontes se encontra na pasta **[Trabalhos](https://github.com/Andrew-Figueiredo/introducao_a_computacao_grafica/tree/master/Trabalhos)** separados de acordo com cada atividade. Segue a seguir o sumário com as atividades feitas.
 
-----------------------------
+------------------------------------------
 ### Sumário:
 1. [Trabalho 01: Instalando, Compilando e Executando um programa OpenGL Moderno (Triangulo)](#trabalho_1)
 <!-- 2. [Trabalho 02: ](#trabalho_2)
 3. [Trabalho 03: ](#trabalho_3)
 4. [Trabalho 04: ](#trabalho_4) -->
-
+-------------------------------------------
+<br></br>
 <br></br>
 <a name="trabalho_1" ></a>
 ## Trabalho 01 - Instalando, Compilando e Executando um programa OpenGL Moderno (Triangulo) 
-----------------------------
+------------------------------------------
 Neste trabalho foi porposto a configuração do ambiente de desenvolvimento dos alunos para trabalhar com o OpenGL 3.3 e se familiarizar com a ferramenta.
 
 
