@@ -33,7 +33,8 @@ sudo apt-get install libglew1.5-dev libglm-dev
 ```
 
 Em seguida para confirma se o OpenGL e suas dependecias já estavam instaladas utilizei o comando ` glxinfo | grep OpenGL ` que mostrou o seguinte resultado:
-![Figura 1: Verificação da instalação do OpenGL.](/home/andrew/Dropbox/UFPB/2020.1/ICG/Atividade_Git/Trabalhos/Trabalho_1/Prints/Instalando_o_OpenGL.png)
+![Figura 1 - Instalando_concluida com sucesso](https://user-images.githubusercontent.com/45156832/95157067-6a879700-076e-11eb-9b4f-0c0ec5e13eac.png)
+
 
 
 
