@@ -68,7 +68,7 @@ E por fim, ao executar o arquivo ` moderngl_hello_world ` temos o resultado segu
 **Figura 3 - Trabalho_Executando**
 
 
-Sem nenhum problema agravante, a atividade foi executada com sucesso.
+Sem nenhum problema agravante, a atividade foi executada com sucesso. Caso seja necessário ver o trabalho, basta [Clicar Aqui](https://github.com/Andrew-Figueiredo/introducao_a_computacao_grafica/tree/master/Trabalhos/Trabalho_1).
 
 
 ### Referências
