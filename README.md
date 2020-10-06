@@ -12,7 +12,7 @@ Este repositório tem o objetivo de apresentar todos os trabalhos da disciplina 
 3. [Trabalho 03: ](#trabalho_3)
 4. [Trabalho 04: ](#trabalho_4) -->
 
-</br>
+<br></br>
 ## Trabalho 01 - Instalando, Compilando e Executando um programa OpenGL Moderno (Triangulo) <a name="trabalho_1" ></a>
 ----------------------------
 Inicialmente houve tentativas de instalar o OpenGL no windows e sem muito sucesso. Então utilizando o linux, depois de algumas pesquisas, encontrei no site [WikiHow](https://pt.wikihow.com/Instalar-Mesa-(OpenGL)-no-Linux-Mint) o passo a passo de como preparar meu sistema para começar a desenvolver em OpenGL.
