@@ -161,10 +161,37 @@ void DrawTriangle(int x0,int y0,int x1,int y1,int x2,int y2, int R, int G, int B
 // Definição da função que chamará as funções implementadas pelo aluno
 void MyGlDraw(void)
 {
-    // Testar outros pontos e linhas e triangulos
-    DrawLine(0,0,255,255,255,255,0,255,125,0,0,125);
-
     //
     // >>> Chame aqui as funções que você implementou <<<
     //
+
+
+    // Testar outros pontos e linhas e triangulos
+    // for (int i = 0; i< 100 ; i++)
+    // {
+    //     // Linha pontilhada branca
+    //     // PutPixel(256+i,256+i,255-50*i,255-50*i,255-50*i,0);
+    // }
+    
+    // Triangulo    
+    // DrawTriangle(100,100,150,150,250,100,2,320,20,250,0,0,200,0);
+
+    // Escrevendo ICG:
+    // i
+    DrawLine(128,156,127,356,0,0,185,0,0,0,135,0);
+    DrawLine(100,156,156,157,0,0,185,0,0,0,135,0);
+    DrawLine(100,356,156,357,0,0,185,0,0,0,135,0);
+    // c
+    DrawLine(200,156,300,157,0,0,185,0,0,0,135,0);
+    DrawLine(200,156,201,356,0,0,185,0,0,0,135,0);
+    DrawLine(200,356,300,357,0,0,185,0,0,0,135,0);
+    
+    // g
+    DrawLine(384,156,485,157,0,0,185,0,0,0,135,0);
+    DrawLine(384,156,385,356,0,0,185,0,0,0,135,0);
+    DrawLine(384,356,484,357,0,0,185,0,0,0,135,0);
+    DrawLine(484,156,485,256,0,0,185,0,0,0,135,0);
+    DrawLine(434,256,484,257,0,0,185,0,0,0,135,0);
+
+    // DrawLine(100,356,156,357,0,0,185,0,0,0,135,0);
 }
