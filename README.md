@@ -76,14 +76,61 @@ Sem nenhum problema agravante, a atividade foi executada com sucesso. Caso seja 
 
 ---
 
-Neste Trabalho foi proposto o desenvolvimento de ao menos 3 funcionalidade:
+Neste Trabalho foi desenvolvido implementações simples de algoritmos para rasterização de pontos e linhas. Como os sistema operacionais atuais protegem a mémoria de vídeo, o professor Christian disponibilizou uma [Framework](https://github.com/capagot/icg/tree/master/02_mygl_framework) que simula o acesso à memória de vídeo.
+
+Foi proposto o desenvolvimento de ao menos 3 funcionalidade:
 
 - **PutPixel(...)** que fará a rasterização de um ponto na memória de vídeo com parâmetros (x,y) do pixel na tela e sua cor (R,G,B,A).
-- **DrawLine(...)** que rasteriza uma linah na tela com (x0,y0,x1,y1) como parâmetro que representam as posições de dois vértices e (R1,G1,B1,A1,R2,G2,B2,A2) suas cores. As cores ao longo da linha, devem ser obtidas por interpolação linear das cores dos vértices, e o algoritmo de rasterização de linha a ser implementada deve ser o Algoritmo do ponto médio.
+- **DrawLine(...)** que rasteriza uma linha na tela com (x0,y0,x1,y1) como parâmetro que representam as posições de dois vértices e (R1,G1,B1,A1,R2,G2,B2,A2) suas cores. As cores ao longo da linha, devem ser obtidas por interpolação linear das cores dos vértices, e o algoritmo de rasterização de linha a ser implementada deve ser o Algoritmo do ponto médio.
 - **DrawTriangle(...)** que desenha as arestas de um triângulo na tela, recebendo como parâmetro três vértices (x0,y0), (x1,y1), (x2,y2) bem como suas respectivas cores sem ser necessário o preenchimento.
 
+Desta maneira, foram implementada 3 funções inicialmente que se encontram no arquivo `mygl.c` em [Trabalho_2](https://github.com/Andrew-Figueiredo/introducao_a_computacao_grafica/tree/editor/Trabalhos/Trabalho_2) com os parâmetros proposto anteriormente.
 
-<!-- 
+A primeira função (**PutPixel(...)**) de ponto foi a mais simples, pois só foi preciso adicionar cor na posição (x,y) da tela,
+
+![primeiro_ponto](https://user-images.githubusercontent.com/45156832/96670848-c4738980-1336-11eb-9cd5-052dcc9cba02.png)
+
+**Figura 01: Primeiro ponto**
+
+Após ter sucesso em fazer o ponto observando os exemplos do professor, então foi realizado um testa para uma reta,
+
+![Primeira_reta](https://user-images.githubusercontent.com/45156832/96672241-21247380-133a-11eb-98c1-a793bf143001.png)
+
+**Figura 02:Primeira Reta**
+
+o mais difícil desse exercício foi descobrir como fazer a interpolação linear das cores, mas depois de uns teste resultou na imagem a cima. Para chegar no resultado a cima, foi utilizado a função **DrawLine(...)**.
+
+Após realizar todos estes teste, foi criado a função **DrawTriangle(...)** com a criação de 3 linha utilizando a função **DrawLine(...)** juntando os vertices, então temos,
+
+![triangulo](https://user-images.githubusercontent.com/45156832/96672246-21bd0a00-133a-11eb-92c3-769e5977870f.png)
+
+**Figura 03:Triângulo**
+
+Como os as 3 funções foram implementada e testadas com sucesso, então eu tentei usa-lás para criar algumas imagens como por exemplo,
+
+![Linha pontilhada](https://user-images.githubusercontent.com/45156832/96670851-c50c2000-1336-11eb-986e-b528f3fe8910.png)
+
+**Figura 04: Linha Pontilhada**
+
+![icg](https://user-images.githubusercontent.com/45156832/96670850-c50c2000-1336-11eb-84d9-56e003f66dc7.png)
+
+**Figura 05: Sigla da disciplina Introdução à Computação Gráfica.**
+
+- **Assim concluindo a Atividade_02.**
+
+#### Alguns Problemas
+
+- Um dos problemas que poderia ser melhorado seria a criação de struct como parâmetro dos métodos;
+- Quando xi = xj com i != j na função **DrawLine(...)** ou yi = yj, está dando erro pois, ocorre uma divisão por zero.
+
+
+### Refêrencias
+
+- Aulas disponibilizadas pelo professor Christian Azambuja Pagot;
+- http://linguagemc.com.br/basico-para-iniciantes-1/
+- http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula.pdf
+
+<!--
 <a name="trabalho_3" ></a>
 
 ## Trabalho 03 -
