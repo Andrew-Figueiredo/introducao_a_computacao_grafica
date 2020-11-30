@@ -207,7 +207,10 @@ obtemos está imagem,
 Neste trabalho, aprendemos na prática computacional como utilizar as matrizes **model, View** e **projection** para realizar as transformações geométricas. Assim como aprendemos como trabalhar com a biblioteca **GLM**.
 
 
-
+### Referências: 
+ - [Perspective distortion](https://en.wikipedia.org/wiki/Perspective_distortion_(photography) )
+ - [Computação Gráfica Visualização 3D](https://www.inf.pucrs.br/~pinho/CG/Aulas/Vis3d/Vis3d.htm#:~:text=A%20modelagem%20matem%C3%A1tica%20da%20proje%C3%A7%C3%A3o,Centro%20de%20Proje%C3%A7%C3%A3o(CP))
+ - [glm](https://github.com/g-truc/glm)
 
 <!--
 <a name="trabalho_4" ></a>
