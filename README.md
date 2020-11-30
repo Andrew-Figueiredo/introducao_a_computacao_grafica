@@ -10,8 +10,8 @@ Este repositório tem o objetivo de apresentar todos os trabalhos da disciplina 
 
 1. [Trabalho 01: Instalando, Compilando e Executando um programa OpenGL Moderno (Triangulo)](#trabalho_1)
 2. [Trabalho 02: Rasterizando Linhas ](#trabalho_2)
+3. [Trabalho 03: Implementação do Pipeline Gráfico ](#trabalho_3)
 <!--
-3. [Trabalho 03: ](#trabalho_3)
 4. [Trabalho 04: ](#trabalho_4) -->
 
 ---
@@ -130,11 +130,86 @@ Como os as 3 funções foram implementada e testadas com sucesso, então eu tent
 - http://linguagemc.com.br/basico-para-iniciantes-1/
 - http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula.pdf
 
-<!--
+
 <a name="trabalho_3" ></a>
 
-## Trabalho 03 -
+## Trabalho 03 - Implementação do Pipeline Gráfico
 
+Este trabalho consiste em aplicar conceitos de transformações geométricas através do OpenGL, GLM, Gleq e C++. Utilizando o código fornecido pelo professor ([Código](https://github.com/capagot/icg/tree/master/03_transformations)). O código executado, apresenta dois triangulos um azul e vermelho, sendo o vermelho sobrepondo o azul como observamos na figura abaixo,
+
+![Imagem1](https://user-images.githubusercontent.com/45156832/100559282-b9ded500-3290-11eb-95b5-9b556e6cde73.png)
+
+A seguir, veremos algumas transformações geométricas que foram obtidas a partir da alteração das matrizes **Model, View** e **Projection**, onde inicialmente contém a matriz identidade.
+
+### Exercicio 1: Escala
+
+No espaço bidimensional, essa transformação consiste em pegar as coordenadas x, y e z e modificar a largura e altura da figura original através da matriz model.
+
+Primeiramente modificaremos a matriz **Model**, onde foi alterado da seginte forma,
+
+![exercicio_1](https://user-images.githubusercontent.com/45156832/100559606-037bef80-3292-11eb-9de9-4c082ebdf851.png)
+
+A partir desta alteração obtivemos o seguinte resultado, 
+
+![exercicio_1(result)](https://user-images.githubusercontent.com/45156832/100559747-80a76480-3292-11eb-94c9-0e4f48e3914a.png)
+
+Por enquanto sem nenhuma dificuldade.
+### Exercício 2: Translação
+
+Neste caso, iremos mover os trinagulos para outro local no espaço, alterando as suas coordenadas na matriz **model**,
+
+![exercicio_2](https://user-images.githubusercontent.com/45156832/100559961-193de480-3293-11eb-8553-bad8cf9ca5ed.png)
+
+executando com esta matriz, obtemos a seguinte imagem,
+
+![exercicio_2(result)](https://user-images.githubusercontent.com/45156832/100559963-19d67b00-3293-11eb-8a48-8fa8b2cc97fd.png)
+
+Sem nenhuma dificuldades também.
+
+### Exercício 3: Projeção Perspectiva
+
+    Está projeção é usada para tornar os objetos mais realísticos. 
+    Neste caso, iremos alterar a matriz de projeção, alterando da forma seguinte,
+![exercicio_3](https://user-images.githubusercontent.com/45156832/100560406-74bca200-3294-11eb-9d13-1f6360b0f1a0.png)
+
+    teremos o seguinte resultado, 
+![exercicio_3(result)](https://user-images.githubusercontent.com/45156832/100560407-75553880-3294-11eb-8cc6-183c0f56bc8d.png)
+
+
+### Exercício 4: Posição da Câmera
+
+É uma transformação de um objeto e de sua área circundante que difere significativamente da aparência do objeto com uma distância focal normal , devido à escala relativa de características próximas e distantes.
+Neste caso alteramos a Matriz **View**,
+
+![exercicio_4](https://user-images.githubusercontent.com/45156832/100560413-78502900-3294-11eb-9145-4c8179898675.png)
+
+e obtemos o resultado seguinte,
+
+![exercicio_4(result)](https://user-images.githubusercontent.com/45156832/100560415-79815600-3294-11eb-82ae-6b24d09ae8bd.png)
+
+### Exércicio 5: Transformações Livres
+
+Neste exercício, foi deixado livre as escolhas das matrizes **model, View** e **projection** para forma uma figura, e utilizando as seguintes matrizes, 
+
+![exercicio_51](https://user-images.githubusercontent.com/45156832/100561869-c49d6800-3298-11eb-87aa-ab07b29f4c0b.png)
+![exercicio_52](https://user-images.githubusercontent.com/45156832/100561870-c49d6800-3298-11eb-9351-0cbe1f978918.png)
+![exercicio_53](https://user-images.githubusercontent.com/45156832/100561872-c535fe80-3298-11eb-925e-3523f1560313.png)
+
+obtemos está imagem, 
+
+![exercicio_5(result)](https://user-images.githubusercontent.com/45156832/100561867-c404d180-3298-11eb-95a8-94cfb7884802.png)
+
+
+
+
+### Conclusão:
+
+Neste trabalho, aprendemos na prática computacional como utilizar as matrizes **model, View** e **projection** para realizar as transformações geométricas. Assim como aprendemos como trabalhar com a biblioteca **GLM**.
+
+
+
+
+<!--
 <a name="trabalho_4" ></a>
 
 ## Trabalho 04 - -->
