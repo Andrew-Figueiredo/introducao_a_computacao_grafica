@@ -74,9 +74,9 @@ void Display(void) {
 
     // Matriz View ////////////////////////////////////////////////////////////
     // You will have to change the contents of this matrix for the exercises
-    float view_array[16] = {-0.1f, 0.1f, 0.1f, 0.0f, 
-                            0.0f, 1.0f, 0.0f, 0.0f, 
-                            0.0f, 0.0f, 0.0f, 0.0f, 
+    float view_array[16] = {1.0f, 0.0f, 0.0f, 0.1f, 
+                            0.0f, 1.0f, 0.0f, -0.1f, 
+                            0.0f, 0.0f, 1.0f, -0.1f, 
                             0.0f, 0.0f, 0.0f, 1.0f};
 
     glm::mat4 view_mat = glm::make_mat4(view_array);

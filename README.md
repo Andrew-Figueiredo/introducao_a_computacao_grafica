@@ -179,14 +179,18 @@ Sem nenhuma dificuldades também.
 
 ### Exercício 4: Posição da Câmera
 
-É uma transformação de um objeto e de sua área circundante que difere significativamente da aparência do objeto com uma distância focal normal , devido à escala relativa de características próximas e distantes.
+É uma transformação de um objeto e de sua área circundante que difere significativamente da aparência do objeto com uma distância focal normal , devido à escala relativa de características próximas e distantes. 
+
+Para criarmos a Matriz **View** Encontraremos primeiro a Matriz **$B^T$** e multiplica-lá pela Matriz **T** desta forma encontramos a matriz **View**. 
+
 Neste caso alteramos a Matriz **View**,
 
-![exercicio_4](https://user-images.githubusercontent.com/45156832/100560413-78502900-3294-11eb-9145-4c8179898675.png)
+![exercicio_4](https://user-images.githubusercontent.com/45156832/101506139-d693a080-3953-11eb-96ce-61ba5766fcc4.png)
+
 
 e obtemos o resultado seguinte,
 
-![exercicio_4(result)](https://user-images.githubusercontent.com/45156832/100560415-79815600-3294-11eb-82ae-6b24d09ae8bd.png)
+![exercicio_4(result)](https://user-images.githubusercontent.com/45156832/101506104-cda2cf00-3953-11eb-99e5-acd7e4484c40.png)
 
 ### Exércicio 5: Transformações Livres
 
