@@ -170,10 +170,11 @@ Sem nenhuma dificuldades também.
 
     Está projeção é usada para tornar os objetos mais realísticos. 
     Neste caso, iremos alterar a matriz de projeção, alterando da forma seguinte,
-![exercicio_3](https://user-images.githubusercontent.com/45156832/100560406-74bca200-3294-11eb-9d13-1f6360b0f1a0.png)
+![exercicio_3](https://user-images.githubusercontent.com/45156832/101494219-cc6aa580-3945-11eb-8687-e21249a14748.png)
+
 
     teremos o seguinte resultado, 
-![exercicio_3(result)](https://user-images.githubusercontent.com/45156832/100560407-75553880-3294-11eb-8cc6-183c0f56bc8d.png)
+![exercicio_3(result)](https://user-images.githubusercontent.com/45156832/101494223-cd033c00-3945-11eb-85a1-fc050a3e70e9.png)
 
 
 ### Exercício 4: Posição da Câmera
